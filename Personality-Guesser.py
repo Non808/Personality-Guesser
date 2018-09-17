@@ -1,3 +1,4 @@
+
 def percentage(st):
     total = 0
     for i in st:
