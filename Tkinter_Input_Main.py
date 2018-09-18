@@ -39,7 +39,7 @@ def drawUI():
     givUpv.grid(row=3,column=6)
     givDow.grid(row=3,column=7)
     
-    sub1 = Label(canvas,text="Reactions Gotton",font=("Futura",16,"bold"))
+    sub1 = Label(canvas,text="Reactions Gotten",font=("Futura",16,"bold"))
     sub1.grid(row=4,column=4)
     getLov = Button(canvas,text="Love",command=lambda: my.addLov(False))
     getLau = Button(canvas,text="Laughter",command=lambda: my.addLau(False))
